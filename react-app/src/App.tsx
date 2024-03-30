@@ -1,7 +1,13 @@
-import Message from './Message';
+import ListGroup from "./components/ListGroup";
+import HomePage from "./useStateHook";
 
 function App() {
-  return <div><Message/></div>
+  return (
+    <div>
+      {/* <ListGroup /> */}
+      <HomePage/>
+    </div>
+  );
 }
 
 export default App;
