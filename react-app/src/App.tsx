@@ -4,8 +4,7 @@ import HomePage from "./useStateHook";
 function App() {
   return (
     <div>
-      {/* <ListGroup /> */}
-      <HomePage/>
+      <ListGroup />
     </div>
   );
 }
